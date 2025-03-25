@@ -1,0 +1,37 @@
+Gold_price_prediction:
+
+1. In this project, we are going to see the good gold prices based on several other stock prices.
+
+2. work-flow of this project:
+
+Data set----->Data preprocessing----->Data Analysis(analysing the statitstical data, find correlation, distribtion details, etc)----->Train_test_split--->Random forest regressor---->evaluate the value
+
+3.Loading the dataset
+
+4.Data Preprocessing:
+
+4.1 we read first some particular rows in the dataset.
+4.2 check the shape, get some basic information about the dataset.
+4.3 check the missing values
+4.4 check the statistical measures of the data.
+4.5 find the correlation by using heatmap.
+4.6 check the distribution of the gold price
+
+5. Data Analysis:(observation of the correlation map)
+5.1 If the gold price increased, then the silver price also increased.
+5.2 If USO(US oil fund) increased, then EUR/USD also increased
+
+6.splitting the feature and targeted data
+
+7. splitting the training and test data
+
+8.Load the Randonforestregressor model
+8.1 train the model
+8.2 Randomforest model is an ensemble model, means it contains more than one model gether. 
+8.3 It contains more than one decision tree. The majority of the voting of all the decision tree is the final result.
+
+9.Evaluate the model score by r2_score is greater than 0.9 which is good accuracy score and we got the good model.
+
+10 visualization of the actual value and test prediction value by plot graph
+
+
